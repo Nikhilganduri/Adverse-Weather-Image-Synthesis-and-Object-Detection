@@ -214,6 +214,6 @@ This project was collaboratively developed by a four-member team for the **Synth
 | Team Member | GitHub Profile |
 |---|---|
 | Ganduri Venkata Nikhil | [@Nikhilganduri](https://github.com/Nikhilganduri) |
-| Teammate 2 | [@OMGitsKights](https://github.com/OMGitsKights) |
-| Teammate 3 | [@abhiram-pappu](https://github.com/abhiram-pappu) |
-| Teammate 4 | [@username4](https://github.com/username4) |
+| Arjuna Aruna Sundar | [@OMGitsKights](https://github.com/OMGitsKights) |
+| Abhiram Pappu | [@abhiram-pappu](https://github.com/abhiram-pappu) |
+| Varun Balaji | [@username4](https://github.com/username4) |
