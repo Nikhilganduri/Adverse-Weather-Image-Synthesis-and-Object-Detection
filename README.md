@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b7b9b9c-81e4-4722-81c2-f0c772a062c7" /># Adverse-Weather Image Synthesis and Object Detection
+Synthesis and Object Detection
 
 A Python-based computer vision pipeline for generating synthetic rain and low-light driving scenes, producing YOLO-format object annotations, and evaluating object detection performance under different weather severities.
 
