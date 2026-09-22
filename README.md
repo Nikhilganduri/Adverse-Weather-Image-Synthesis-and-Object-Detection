@@ -1,4 +1,4 @@
-Synthesis and Object Detection
+## Synthesis and Object Detection
 
 A Python-based computer vision pipeline for generating synthetic rain and low-light driving scenes, producing YOLO-format object annotations, and evaluating object detection performance under different weather severities.
 
