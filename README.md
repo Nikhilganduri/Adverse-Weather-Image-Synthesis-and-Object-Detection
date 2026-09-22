@@ -71,7 +71,21 @@ Additional visual effects include:
 
 The pipeline uses deterministic per-image random seeds to support reproducible generation.
 
-## 6. Object Detection Evaluation
+## 6. Visual Results
+
+The following images demonstrate the weather synthesis pipeline using the same driving scene (`000344`) under different weather conditions.
+
+| Original / Clear | Light Rain & Low Light |
+|:---:|:---:|
+| ![Clear scene](samples/clear.jpg) | ![Light weather](samples/low.jpg) |
+
+| Medium Rain & Low Light | Heavy Rain & Low Light |
+|:---:|:---:|
+| ![Medium weather](samples/medium.jpg) | ![Heavy weather](samples/high.jpg) |
+
+The visualizations illustrate how increasing weather severity affects scene visibility. The bounding boxes represent the project's object annotations.
+
+## 7. Object Detection Evaluation
 
 The project's existing evaluation reports the following results:
 
@@ -85,7 +99,7 @@ These results indicate substantial detection-performance degradation under incre
 
 The evaluation demonstrates the challenge of maintaining object detection robustness in adverse weather. It does not establish an improvement in detection accuracy.
 
-## 7. Project Structure
+## 8. Project Structure
 
 ```text
 Adverse-Weather-Image-Synthesis-and-Object-Detection/
@@ -109,7 +123,7 @@ The `samples/` directory is intended for representative output images and will b
 
 The full generated dataset is maintained outside this repository.
 
-## 8. Installation
+## 9. Installation
 
 Python 3.10 or later is recommended.
 
@@ -157,7 +171,7 @@ Process a specific image range:
 python pipeline_all_in_one.py --start-index 1 --end-index 500 --stage all
 ```
 
-## 9. Reproducibility
+## 10. Reproducibility
 
 Each synthesized image is associated with a deterministic random seed and severity-dependent parameters.
 
@@ -165,7 +179,7 @@ The pipeline also supports resume-safe processing by skipping outputs that have 
 
 Metadata records include image identifiers, weather severity, synthesis parameters, resolution, annotation format, and random seeds.
 
-## 10. Limitations
+## 11. Limitations
 
 - Synthetic weather may not fully represent real-world atmospheric conditions.
 - Annotations originate from detections on clear images and may contain errors.
@@ -173,7 +187,7 @@ Metadata records include image identifiers, weather severity, synthesis paramete
 - Detection performance decreases substantially under heavy synthetic weather.
 - Additional real-world validation is needed before drawing conclusions about deployment performance.
 
-## 11. Hackathon
+## 12. Hackathon
 
 **Event:** SynthVision National Hackathon
 
@@ -183,7 +197,7 @@ Metadata records include image identifiers, weather severity, synthesis paramete
 
 This repository documents the project's technical implementation and evaluation.
 
-## 12. Future Scope
+## 13. Future Scope
 
 Potential extensions include:
 
