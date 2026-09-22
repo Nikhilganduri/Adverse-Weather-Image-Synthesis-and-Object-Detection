@@ -1,4 +1,4 @@
-# Adverse-Weather Image Synthesis and Object Detection
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b7b9b9c-81e4-4722-81c2-f0c772a062c7" /># Adverse-Weather Image Synthesis and Object Detection
 
 A Python-based computer vision pipeline for generating synthetic rain and low-light driving scenes, producing YOLO-format object annotations, and evaluating object detection performance under different weather severities.
 
@@ -206,3 +206,14 @@ Potential extensions include:
 - Fine-tuning detection models on synthetic adverse-weather images.
 - Comparing synthetic and real-world adverse-weather performance.
 - Investigating domain adaptation and weather-robust detection.
+
+## 14. Contributors
+
+This project was collaboratively developed by a four-member team for the **SynthVision National Hackathon**. All team members contributed equally to the project's development.
+
+| Team Member | GitHub Profile |
+|---|---|
+| Ganduri Venkata Nikhil | [@Nikhilganduri](https://github.com/Nikhilganduri) |
+| Teammate 2 | [@OMGitsKights](https://github.com/OMGitsKights) |
+| Teammate 3 | [@abhiram-pappu](https://github.com/abhiram-pappu) |
+| Teammate 4 | [@username4](https://github.com/username4) |
